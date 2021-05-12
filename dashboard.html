@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/css/dashboard.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidebar">
+            <h1 class="brand">
+                <img src="static/img/bankLogo1.png" alt="logo">
+                <a href="#">My<span class="red">B</span>ank</a>
+            </h1>
+            <div class="list-of-items">
+                <div class="items">
+                    <div>
+                        <a href="#" id="accountDetailes">
+                            <img src="static/img/bankAccount.png" alt="accountDetailes">
+                            <p>Your Account</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" id="walletCash">
+                            <img src="static/img/walletCash.png" alt="walletCash">
+                            <p>Check Balance</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" id="getCash">
+                            <img src="static/img/getCash.png" alt="getCash">
+                            <p>WithDraw Cash</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" id="putCash">
+                            <img src="static/img/putCash.png" alt="putCash">
+                            <p>Deposite Cash</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" id="moneyTransaction">
+                            <img src="static/img/moneyTransaction.png" alt="moneyTransaction">
+                            <p>Transfer Cash</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" id="yourTransaction">
+                            <img src="static/img/yourTransaction.png" alt="yourTransaction">
+                            <p>Your Transaction</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" id="logout">
+                            <img src="static/img/logout.png" alt="logout">
+                            <p>Logout</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <iframe id="myFrame" src="index.html" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+
+    <script src="static/js/dashboard.js"></script>
+    <script>
+        document.addEventListener('contextmenu',  event => event.preventDefault());
+    </script>
+</body>
+</html>

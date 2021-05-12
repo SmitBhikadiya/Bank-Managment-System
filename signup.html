@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signup">
+        <form action="">
+            <div class="form-logo">
+                <img src="static/img/bankLogo1.png" alt="">
+                <p>My<b style="color: red;">B</b>ank</p><hr>
+            </div>
+            <div class="form-input">
+                <label for="fullname">User's Name</label>
+                <input type="text">
+            </div>
+            <div class="form-input">
+                <label for="dob">Profile Picture</label>
+                <input type="file" accept=".jpeg,.jpg,.png">
+            </div>
+            <div class="form-input">
+                <label for="accounttype">Account Type</label>
+                <select class="form-control" name="" id="">
+                    <option value="saving">Saving</option>
+                    <option value="saving" disabled>Current</option>
+                </select>
+            </div>
+            <div class="form-input">
+                <label for="email">Email</label>
+                <input type="email">
+            </div>
+            <div class="form-input">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" max="9999999999">
+            </div>
+            <div class="form-input">
+                <label for="password">Password</label>
+                <input type="password">
+            </div>
+            <div class="form-input">
+                <label for="dob">Birth Date</label>
+                <input type="date">
+            </div>
+            <div class="form-input">
+                <label for="address">Address</label>
+                <textarea cols="30" rows="5"></textarea>
+            </div>
+            <div class="form-submit">
+                <input type="submit" id="submit_btn" value="SignUp">
+                <div class="form-links">
+                    <a href="index.html" style="text-align: left;">SignIn</a>
+                    <a href="#" style="text-align: right;">Forgot Password</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="static/js/index.js"></script>
+    <script>
+        document.addEventListener('contextmenu',  event => event.preventDefault());
+      </script>
+</body>
+</html>

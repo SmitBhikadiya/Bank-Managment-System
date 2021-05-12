@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup{
+    margin: auto auto;
+    width: 50%;
+
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 50px;
+    box-shadow: 2px 4px 30px rgb(55, 146, 202);
+    font-size: large;
+}
+
+.form-login{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    box-shadow: 2px 4px 30px rgb(55, 146, 202);
+    font-size: large;
+}
+
+.form-logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-logo p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 5vh;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+}
+
+.form-logo img{
+    border-radius: 10px;
+    background-color:red;
+    width: 100px;
+    height: 100px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.form-input input,.form-input select,.form-input textarea{
+    margin: 5px 0px 0px 1px;
+    color: royalblue;
+    font-size: 2.7vh;
+    border: 2px solid rgba(65, 105, 225, 0.603);
+}
+.form-input input{
+    height: 35px;
+    padding: 10px;
+}
+.form-input select{
+    height: 35px;
+}
+.form-input textarea{
+    padding: 10px;
+}
+
+.form-input input:active{
+    border: none;
+}
+
+
+.form-submit{
+    margin-top: 20px;  
+}
+.form-submit input{
+    margin-bottom: 10px;
+}
+.form-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: royalblue; 
+}
+
+.form-submit input{
+    background-color: red;
+    border: none;
+    width:100%;
+    font-size: 20px;
+    color:white;
+    border-radius: 4px;
+    padding: 5px;   
+    text-transform: uppercase;
+}
+
+
+/* Account Detailes */
+#cardCenter{
+    width: 70%;
+    margin: auto;
+}
+#cardCenter .card{
+    margin: auto;
+    margin-top: 13px;
+}
